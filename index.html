@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Румтибет</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header class="header-page">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./imgs/1page/logo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav text-white me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Про гида</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Программа тура</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Стоимость</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Блог</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                    <button class="btn1" type="submit">Консультация</button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="header-text">
+            <p>Насладись прогулкой в горах
+                с командой единомышленников</p>
+        </div>
+    </header>
+
+    <section class="our-trip d-flex justify-content-center align-items-center">
+        <div class="our-trip-content d-flex align-items-center">
+            <div class="media position-relative">
+                <img class="our-trip-pic" src="./imgs/2page/pic2.jfif" alt="">
+                <div class="video-wrapper">
+                    <div class="video-container" id="video-container">
+                        <video id="video" preload="metadata"
+                            poster="./imgs/2page/pic3.jfif">
+                            <source src="./videos/video.mp4" type="video/mp4">
+                        </video>
+
+                        <div class="play-button-wrapper">
+                            <div title="Play video" class="play-gif" id="circle-play-b">
+                                <!-- SVG Play Button -->
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+                                    <path d="M40 0a40 40 0 1040 40A40 40 0 0040 0zM26 61.56V18.44L64 40z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-container">
+                <p class="header">
+                    о нашем походе
+                </p>
+                <p class="sub-header">
+                    Исследуйте все горные массивы мира вместе с нами
+                </p>
+                <p class="body-text">
+                    Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий
+                    назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из
+                    самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской
+                    литературе.
+                </p>
+                <a href="#" class="text-decoration-none"><button class="btn2 text-white" type="submit">Программа
+                        тура</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="suggestions">
+            <div class="text-container">
+                <p class="header">
+                    наше предложение
+                </p>
+                <p class="sub-header">
+                    Лучшие программы для тебя </p>
+                <p class="body-text">
+                    Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий
+                    назад.
+                    Ричард МакКлинток, профессор латыни из колледжа.
+                </p>
+                <a href="#" class="text-decoration-none"><button class="btn2 text-white" type="submit">Программа
+                        тура</button></a>
+            </div>
+    </section>
+    <script src="./js/index.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
