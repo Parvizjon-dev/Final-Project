@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Румтибет</title>
+    <title>РумТибет</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -22,17 +22,47 @@
                     <li class="nav-item"><a href="#!" class="nav-link">Стоимость</a></li>
                     <li class="nav-item"><a href="#!" class="nav-link">Блог</a></li>
                     <li class="nav-item"><a href="#!" class="nav-link">Контакты</a></li>
-                    <li> <button class="header-button" type="button">Консультация</button> </li>
+                    <li> <button class="header-button border-0" type="button">Консультация</button> </li>
                 </ul>
             </nav>
         </div>
-
-        <div class="header-text">
-            <p>Насладись прогулкой в горах
+        <div class="header-content d-flex flex-column align-content-center align-items-center">
+            <p class="header-text p-0 m-0">Насладись прогулкой в горах
                 с командой единомышленников</p>
-        </div>
-        <div class="find-container">
-
+            <div class="find-program d-flex justify-content-evenly align-items-center">
+                <div class="custom-select d-flex flex-column">
+                    <select class="bg-transparent border-0 text-white">
+                        <option value="0">Локация для тура</option>
+                        <option value="1">Италия</option>
+                        <option value="2">Индия</option>
+                        <option value="3">Монако</option>
+                    </select>
+                    <div>
+                        <p class="find-text">выберите из списка</p>
+                    </div>
+                </div>
+                <div class="find-date d-flex flex-column">
+                    <div class="d-flex flex-column">
+                        <input class="bg-transparent border-0 text-white" type="date" id="date" name="date">
+                    </div>
+                    <div>
+                        <p class="find-text">укажите диапазон</p>
+                    </div>
+                </div>
+                <div class="custom-select d-flex flex-column">
+                    <select class="bg-transparent border-0 text-white">
+                        <option value=" 0">Участники</option>
+                        <option value="1">4 человека</option>
+                        <option value="2">8 человека</option>
+                        <option value="3">12 человека</option>
+                    </select>
+                    <div>
+                        <p class="find-text">минимум 4 человека</p>
+                    </div>
+                </div>
+                <a class="text-decoration-none" href=""><button type="" class="find-button border-0">Найти
+                        программу</button></a>
+            </div>
         </div>
     </header>
     <!--Our trip section-->
@@ -54,8 +84,7 @@
                     самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской
                     литературе.
                 </p>
-                <a href="#" class="text-decoration-none"><button class="our-trip-button text-white"
-                        type="submit">Программа
+                <a href="#" class="text-decoration-none"><button class="main-button border-0" type="submit">Программа
                         тура</button></a>
             </div>
         </div>
@@ -101,8 +130,8 @@
                             способы реализации соответствующих условий активизации.</p>
                     </div>
                 </div>
-                <a href="#" class="text-decoration-none"><button class="suggestions-button text-white"
-                        type="submit">Стоимость программ</button></a>
+                <a href="#" class="text-decoration-none"><button class="main-button border-0" type="submit">Стоимость
+                        программ</button></a>
             </div>
             <div class="suggestions-pics d-flex flex-wrap justify-content-center align-content-center">
                 <img class="img1" src="./imgs/3page/coffee.jfif" alt="">
@@ -134,9 +163,10 @@
                         <p class="header m-1">Озеро возле гор <br> <span class="sub-header">романтическое
                                 приключение</span>
                         </p>
-                        <div class="price-card p-0 d-flex justify-content-center align-content-center">
+                        <div class="price-card p-0">
                             <p class="price-tag">480$</p>
                         </div>
+
                     </div>
                 </div>
                 <div class="mountain-card position-relative">
@@ -152,7 +182,7 @@
                     <div class="tour-price d-flex justify-content-around align-items-center">
                         <p class="header m-1">Ночь в горах <br> <span class="sub-header">в компании друзей</span>
                         </p>
-                        <div class="price-card p-0 d-flex justify-content-center align-content-center">
+                        <div class="price-card p-0">
                             <p class="price-tag">500$</p>
                         </div>
                     </div>
@@ -171,14 +201,14 @@
                         <p class="header m-1">Йога в горах <br> <span class="sub-header">для тех, кто заботится о
                                 себе</span>
                         </p>
-                        <div class="price-card p-0 d-flex justify-content-center align-content-center">
+                        <div class="price-card p-0">
                             <p class="price-tag">230$</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="d-flex justify-content-center align-content-center">
-                <a href="#" class=""><button class="popular-button text-white" type="submit">Рейтинг
+                <a href="#" class="text-decoration-none"><button class="main-button border-0" type="submit">Рейтинг
                         направлений</button></a>
             </div>
         </div>
@@ -218,34 +248,105 @@
                         </div>
                     </div>
                 </div>
-                <div class="blog-card d-flex">
-                    <img src="./imgs/5page/alone-traveller.jfif" alt="">
-                    <div class="card-text">
-                        <p class="card-header">Как подготовиться к путешествию в одиночку?</p>
-                        <p class="card-body">Для современного мира базовый
-                            вектор развития предполагает.</p>
-                        <div class="card-footer3 d-flex justify-content-between align-items-center">
-                            <p class="card-date m-0">01/04/2023</p>
-                            <a class=" card-link text-decoration-none text-dark" href="#!">читать статью</a>
+                <div class="cards-container d-flex justify-content-center align-content-center flex-wrap">
+                    <div class="blog-card d-flex">
+                        <img src="./imgs/5page/alone-traveller.jfif" alt="">
+                        <div class="card-text">
+                            <p class="card-header">Как подготовиться к путешествию в одиночку?</p>
+                            <p class="card-body">Для современного мира базовый
+                                вектор развития предполагает.</p>
+                            <div class="card-footer3 d-flex justify-content-between align-items-center">
+                                <p class="card-date m-0">01/04/2023</p>
+                                <a class=" card-link text-decoration-none text-dark" href="#!">читать статью</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="blog-card d-flex">
-                    <img src="./imgs/5page/taj-mahal.jfif" alt="">
-                    <div class="card-text">
-                        <p class="card-header">Индия ... летим?</p>
-                        <p class="card-body">Для современного мира базовый.</p>
-                        <div class="card-footer4 d-flex justify-content-between align-items-center align-content-center">
-                            <p class="card-date m-0">01/04/2023</p>
-                            <a class="card-link text-decoration-none text-dark link-india" href="#!">читать статью</a>
+                    <div class="blog-card d-flex">
+                        <img src="./imgs/5page/taj-mahal.jfif" alt="">
+                        <div class="card-text">
+                            <p class="card-header">Индия ... летим?</p>
+                            <p class="card-body">Для современного мира базовый.</p>
+                            <div
+                                class="card-footer4 d-flex justify-content-between align-items-center align-content-center">
+                                <p class="card-date m-0">01/04/2023</p>
+                                <a class="card-link text-decoration-none text-dark link-india" href="#!">читать
+                                    статью</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="d-flex justify-content-center align-content-center">
-                <a href="#" class=""><button class="blog-button text-white" type="submit">Другие материалы</button></a>
-
+                <a href="#" class="text-decoration-none"><button class="main-button border-0" type="submit">Другие
+                        материалы</button></a>
             </div>
+        </div>
+    </section>
+    <!--Impression section-->
+    <section class="impression">
+        <div class="impression-container">
+            <div class="blog-text text-center">
+                <p class="header">фото-отчет</p>
+                <p class="sub-header">Делимся впечатлениями</p>
+            </div>
+            <div class="impression-pics d-flex justify-content-center align-content-center flex-wrap">
+                <img class="ipic1" src="./imgs/6page/capadocia.jfif" alt="">
+                <img class="ipic2" src="./imgs/6page/traveller-pack.jfif" alt="">
+                <img class="ipic3" src="./imgs/6page/burj-khalifa.jfif" alt="">
+                <div class="impression-pics d-flex justify-content-center align-content-center flex-wrap">
+
+                    <img class="ipic4" src="./imgs/6page/island.jfif" alt="">
+                    <img class="ipic5" src="./imgs/6page/canyon.jfif" alt="">
+                    <img class="ipic6" src="./imgs/6page/traveller-pack2.jfif" alt="">
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-content-center">
+                <a href="#" class="text-decoration-none"><button class="main-button border-0" type="submit">Наш
+                        pinterest</button></a>
+            </div>
+    </section>
+    <!--Footer section-->
+    <section class="footer">
+        <div class="footer-container d-flex justify-content-center">
+            <div class="company-info">
+                <p class="header">Компания "РумТибет"</p>
+                <p class="body-text">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более
+                    двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney.</p>
+                <div class="contacts d-flex">
+                    <a class="email text-decoration-underline" href="">info@domain.com</a>
+                    <p class="tel text-decoration-underline text-white m-0">+7 (123) 456-78-90</p>
+                </div>
+                <div class="socials d-flex">
+                    <a href="#!"><img src="./imgs/footer-page/telegram.svg" alt=""></a>
+                    <a href="#!"><img src="./imgs/footer-page/vk.svg" alt=""></a>
+                    <a href="#!"><img src="./imgs/footer-page/pinterest.svg" alt=""></a>
+                    <a href="#!"><img src="./imgs/footer-page/skype.svg" alt=""></a>
+                </div>
+            </div>
+            <ul class="text-white services">
+                <p class="ul-header">Наши услуги</p>
+                <li>&#10095; <a href="">Прогулки в горы летом</a></li>
+                <li>&#10095; <a href="">Зимние походы в горы</a></li>
+                <li>&#10095; <a href="">Посещение храмов в горах</a></li>
+                <li>&#10095; <a href="">Экстремальные виды туризма</a></li>
+                <li>&#10095; <a href="">Походы в джунглях Амазонки <span
+                            class="badge bg-white text-dark m-1">New</span></a></li>
+                <li>&#10095; <a href="">Поездка в Африку</a></li>
+            </ul>
+            <ul class="text-white important">
+                <p class="ul-header">Важно для путешествий</p>
+                <li>&#10095; <a href="">Как собрать в долгий поход?</a></li>
+                <li>&#10095; <a href="">Жизненно важные предметы для похода</a></li>
+                <li>&#10095; <a href="">Медицинская страховка, гарантии безопасности</a></li>
+                <li>&#10095; <a href="">Если вы врач - загляните сюда</a></li>
+            </ul>
+        </div>
+    </section>
+    <!--Bottom section-->
+    <section class="bottom">
+        <div class="bottom-container d-flex justify-content-evenly align-items-center">
+            <p class="FIO m-0">ИП Константинопольский К.К., 2023</p>
+            <a class="policy text-white" href="">Политика обработки персональных данных</a>
         </div>
     </section>
     <script src="./js/index.js"></script>
