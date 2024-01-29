@@ -1,0 +1,206 @@
+@media (max-width: 1230px) {
+    .nav-list {
+        display: none;
+    }
+
+    .nav-button {
+        display: block;
+    }
+
+    .nav.open .nav-list {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #1A3E3E;
+
+        z-index: 1;
+        padding: 46px 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        color: white;
+    }
+
+    .nav-item1 {
+        display: none;
+    }
+
+    .header-button {
+        display: none;
+    }
+
+    .nav-link:hover {
+        text-decoration: underline;
+        color: #F2BE22;
+    }
+
+    .nav-button {
+        position: absolute;
+        z-index: 9;
+        top: 30px;
+        right: 20px;
+    }
+
+    .nav.open .nav-button {
+        position: fixed;
+    }
+
+    .header-nav {
+        justify-content: space-between;
+    }
+
+    .find-program {
+        display: none !important;
+    }
+
+    .h-text {
+        margin-left: 4px;
+        margin-top: 310px;
+    }
+
+    .header-text {
+        font-size: 28px;
+    }
+
+    .hidden-btn {
+        display: block !important;
+        margin-left: -277px;
+    }
+
+    .header {
+        font-size: 16px;
+    }
+
+    .sub-header {
+        font-size: 24px;
+    }
+
+    .body-text {
+        font-size: 16px;
+    }
+
+    .our-trip-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .suggestions-pics {
+        display: none !important;
+    }
+
+    .suggestions-content {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .popular-tours img {
+        width: 285px;
+        height: 400px;
+    }
+
+    .popular-tours {
+        overflow-y: hidden;
+        overflow-x: scroll;
+        justify-content: start !important;
+        padding-left: 16px;
+    }
+
+    .popular-tours::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .tour-price {
+        width: 285px;
+        height: 70px;
+    }
+
+    .tour-price .header {
+        font-size: 18px;
+    }
+
+    .tour-price .sub-header {
+        display: none;
+    }
+
+    .price-tag {
+        font-size: 16px;
+    }
+
+    .cards-container {
+        flex-wrap: nowrap !important;
+        overflow-x: scroll;
+        justify-content: start !important;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .cards-container::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .blog-card {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .cards-container img {
+        width: 280px;
+        border-radius: 6px 6px 0px 0px;
+        background: lightgray 50% / cover no-repeat, #D9D9D9;
+        object-fit: cover;
+    }
+
+    .card-text {
+        padding: 0 16px;
+    }
+
+    .card-header {
+        font-size: 20px;
+        margin-bottom: 2px;
+        line-height: 18px;
+    }
+
+    .card-footer1 {
+        margin-top: 8px;
+    }
+
+    .card-footer2 {
+        margin-top: 6px;
+    }
+
+    .card-footer3 {
+        margin-top: 9px;
+    }
+
+    .card-footer4 {
+        margin-top: 10px;
+    }
+
+    .impression-pics img {
+        width: 280px;
+        height: 250px;
+    }
+
+    .impression-pics {
+        flex-wrap: nowrap !important;
+        overflow-x: scroll;
+        justify-content: start !important;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .impression-pics::-wekit-scrollbar {
+        width: 0;
+    }
+}
