@@ -203,4 +203,17 @@
     .impression-pics::-wekit-scrollbar {
         width: 0;
     }
+
+    .footer-container {
+        flex-direction: column;
+        padding: 0 16px 0 16px;
+    }
+
+    .socials{
+        margin-bottom: 15px;
+    }
+
+    .bottom-container{
+        flex-direction: column;
+    }
 }
