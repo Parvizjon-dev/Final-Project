@@ -67,11 +67,11 @@
     color: #1A3E3E;
 }
 
-.header-content{
+.header-content {
     gap: 41px;
 }
 
-.h-text{
+.h-text {
     margin-left: -100px;
     margin-top: 200px;
     max-width: 1080px;
@@ -486,7 +486,7 @@
 }
 
 .impression-container {
-    padding: 80px 0 100px 0;
+    padding: 80px 0 198px 0;
 }
 
 .impression-pics {
@@ -514,6 +514,94 @@
     width: 280px;
     height: 250px;
     flex-shrink: 0;
+}
+
+.subscribe {
+    width: 1180px;
+    height: 196px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 170px;
+    top: 898px;
+    height: 196px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FDFDFD;
+    box-shadow: 0px 0px 15px 0px rgba(24, 18, 30, 0.12);
+    font-family: "Nunito Sans";
+}
+
+.subscribe-container {
+    margin-left: 90px;
+    gap: 64px;
+}
+
+.subscribe-text {
+    max-width: 380px;
+}
+
+.subscribe-header {
+    color: #F2BE22;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.subscribe-subheader {
+    align-self: stretch;
+    color: #18121E;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.subscribe-email {
+    color: #18121E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.input-form {
+    gap: 16px;
+}
+
+.subscribe-input {
+    display: flex;
+    width: 280px;
+    height: 44px;
+    padding: 0px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #F3F5F4;
+}
+
+.subscribe-link {
+    max-width: 536px;
+}
+
+.sb-btn {
+    margin-top: 36px;
+}
+
+.subscribe-btn {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #1A3E3E;
+    color: #FDFDFD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.192px;
 }
 
 .footer-container {
