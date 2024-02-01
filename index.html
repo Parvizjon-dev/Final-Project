@@ -65,8 +65,8 @@
                         <p class="find-text">минимум 4 человека</p>
                     </div>
                 </div>
-                <a class="text-decoration-none" href=""><button type="" class="find-button border-0">Найти
-                        программу</button></a>
+                <button type="submit" id="find-btn" class="find-button border-0">Найти
+                    программу</button>
             </div>
             <a class="text-decoration-none d-none hidden-btn" href=""><button type="" class="find-button border-0">Найти
                     программу</button></a>
@@ -169,12 +169,22 @@
                         </svg>
                         <p class="rating-number m-0">4.9</p>
                     </div>
-                    <div class="tour-price d-flex justify-content-around align-items-center">
-                        <p class="header m-1">Озеро возле гор <br> <span class="sub-header">романтическое
-                                приключение</span>
-                        </p>
-                        <div class="price-card p-0">
-                            <p class="price-tag">480$</p>
+                    <div class="tour-price">
+                        <div class="d-flex justify-content-around align-items-center">
+                            <p class="header m-1">Озеро возле гор <br> <span class="sub-header">романтическое
+                                    приключение</span>
+                            </p>
+                            <div class="price-card p-0">
+                                <p class="price-tag">480$</p>
+                            </div>
+                        </div>
+
+                        <div class="tour-info">
+                            <p>Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух
+                                тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат
+                                Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его
+                                поисками в классической латинской литературе.</p>
+                            <button>Программа тура</button>
                         </div>
 
                     </div>
@@ -297,7 +307,7 @@
                 <p class="header">фото-отчет</p>
                 <p class="sub-header">Делимся впечатлениями</p>
             </div>
-            <div class="impression-pics d-flex justify-content-center align-content-center flex-wrap">
+            <div class="impression-pics d-flex justify-content-center flex-wrap">
                 <img class="ipic1" src="./imgs/6page/capadocia.jfif" alt="">
                 <img class="ipic2" src="./imgs/6page/traveller-pack.jfif" alt="">
                 <img class="ipic3" src="./imgs/6page/burj-khalifa.jfif" alt="">
@@ -310,11 +320,19 @@
                         pinterest</button></a>
             </div>
         </div>
-        <section class="subscribe d-flex">
+
+    </section>
+    <!--Footer section-->
+    <section class="footer">
+        <section class="subscribe d-flex align-items-center justify-content-center">
             <div class="subscribe-container d-flex align-items-center">
                 <div class="subscribe-text">
                     <p class="subscribe-header">актуально</p>
                     <p class="subscribe-subheader">Получайте полезные рассылки о путешествиях</p>
+                </div>
+                <div class="subscribe-mobile-text d-none">
+                    <p class="header m-0">фото-отчет</p>
+                    <p class="sub-header m-0">Делимся впечатлениями</p>
                 </div>
                 <div class="d-flex flex-column">
                     <div class="input-form d-flex">
@@ -324,7 +342,8 @@
                                 placeholder="name@domain.com">
                         </div>
                         <div class="sb-btn">
-                            <button class="subscribe-btn border-0" type="button">Подписаться на новости</button>
+                            <button class="subscribe-btn border-0" id="subscribe-btn" type="button">Подписаться на
+                                новости</button>
                         </div>
                     </div>
                     <div class="subscribe-link">
@@ -335,9 +354,6 @@
                 </div>
             </div>
         </section>
-    </section>
-    <!--Footer section-->
-    <section class="footer">
         <div class="footer-container d-flex justify-content-center">
             <div class="company-info">
                 <p class="header">Компания "РумТибет"</p>
