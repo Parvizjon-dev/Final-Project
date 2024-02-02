@@ -97,10 +97,26 @@
         align-content: center;
         padding-left: 16px;
         padding-right: 16px;
+        margin-bottom: -200px;
     }
 
     .our-trip-pic {
         display: none;
+    }
+
+    .text-container {
+        order: -1;
+    }
+
+    .our-trip-video {
+        top: -500px;
+        left: -180px;
+    }
+
+    .play-button-wrapper {
+        position: absolute;
+        top: -590px;
+        left: -6px;
     }
 
     .suggestions-pics {
@@ -149,7 +165,7 @@
         font-size: 14px;
     }
 
-    .tour-info-btn{
+    .tour-info-btn {
         font-size: 14px;
     }
 

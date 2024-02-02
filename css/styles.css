@@ -148,7 +148,7 @@
 }
 
 .our-trip-container {
-    padding: 100px 0 100px 0;
+    padding: 100px 0 200px 0;
     gap: 550px;
 }
 
@@ -193,7 +193,7 @@
             fill: #fff;
             stroke: #fff;
             cursor: pointer;
-            background-color: rgba(black, 0.2);
+            background-color: #1A3E3E;
             border-radius: 50%;
             opacity: 0.9;
         }
