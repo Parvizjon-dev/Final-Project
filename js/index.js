@@ -13,15 +13,41 @@ navBtn.onclick = () => {
   }
 }
 
-const findBtn = document.getElementById("find-btn");
-findBtn.onclick = function () {
+const findBtn = document.getElementById('find-btn');
+const body = document.querySelector('body')
+
+const modal = document.createElement('div');
+
+const closeModal = () => {
+  body.removeChild(modal)
+}
+
+findBtn.onclick = () => {
   findBtn.innerHTML = `<div class="spinner-border" role="status">
-    <span class="visually-hidden">Загрузка...</span>
-  </div>`
+                      <span class="visually-hidden">Loading...</span>
+                    </div>`
 
   setTimeout(() => {
-    findBtn.innerHTML = 'Найти программу'
-    alert('text')
+    findBtn.innerHTML = 'Найти програму'
+    modal.innerHTML = `<div class="modal show" style="display: block" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title">Рузультат поиска:</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <p>По вашему запросу ничего не найдено.</p>
+                              </div>
+                              <div class="modal-footer">
+                               <button type="button" onclick="closeModal()" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>`
+
+    body.appendChild(modal)
+
   }, 1500)
 
 }
