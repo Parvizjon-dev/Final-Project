@@ -149,7 +149,7 @@
 
 .our-trip-container {
     padding: 100px 0 100px 0;
-    gap: 120px;
+    gap: 550px;
 }
 
 .our-trip-pic {
@@ -158,6 +158,46 @@
     flex-shrink: 0;
     border-radius: 24px;
     background: url(../imgs/2page/pic2.jfif), lightgray 50% / cover no-repeat, #D9D9D9;
+}
+
+.our-trip-video {
+    width: 350px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    object-fit: cover;
+    position: absolute;
+    top: 126px;
+    left: 130px;
+}
+
+.play-button-wrapper {
+    position: absolute;
+    top: 265px;
+    left: 120px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+
+    #circle-play-b {
+        cursor: pointer;
+        pointer-events: auto;
+
+        svg {
+            width: 50px;
+            height: 50px;
+            fill: #fff;
+            stroke: #fff;
+            cursor: pointer;
+            background-color: rgba(black, 0.2);
+            border-radius: 50%;
+            opacity: 0.9;
+        }
+    }
 }
 
 .text-container {
@@ -298,7 +338,7 @@
 }
 
 .popular-content {
-    padding: 80px 0 100px 0;
+    padding: 80px 0 50px 0;
 }
 
 .popular-tours {
@@ -441,6 +481,7 @@
 
 .blog {
     background: #F3F5F4;
+    margin-top: 100px;
 }
 
 .blog-container {
@@ -451,7 +492,7 @@
     row-gap: 20px;
     column-gap: 24px;
     font-family: "Nunito Sans";
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 .blog-card {
@@ -553,7 +594,7 @@
 .impression-pics {
     gap: 20px;
     max-width: 1180px;
-    margin: 0 auto 30px;
+    margin: 0 auto 50px;
 }
 
 .impression-pics img {

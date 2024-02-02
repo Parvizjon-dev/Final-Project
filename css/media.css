@@ -99,6 +99,10 @@
         padding-right: 16px;
     }
 
+    .our-trip-pic {
+        display: none;
+    }
+
     .suggestions-pics {
         display: none !important;
     }
@@ -139,6 +143,14 @@
 
     .price-tag {
         font-size: 16px;
+    }
+
+    .tour-info-text {
+        font-size: 14px;
+    }
+
+    .tour-info-btn{
+        font-size: 14px;
     }
 
     .cards-container {
